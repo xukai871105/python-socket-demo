@@ -1,7 +1,7 @@
 import socket
 
 HOST = 'www.baidu.com'
-PORT = 50008
+PORT = 80
 s = None
 for res in socket.getaddrinfo(HOST, PORT, socket.AF_UNSPEC, socket.SOCK_STREAM):
     af, socktype, proto, canonname, sa = res

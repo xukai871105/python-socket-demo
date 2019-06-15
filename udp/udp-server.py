@@ -1,8 +1,8 @@
 import socket
 import binascii
 
-HOST = ''
-PORT = 50008
+HOST = '0.0.0.0'
+PORT = 50018
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.bind((HOST, PORT))
